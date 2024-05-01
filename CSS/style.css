@@ -1,0 +1,328 @@
+
+/*  header section start */
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+}
+header nav {
+    z-index: 9;
+}
+.header-content ,.goarch{
+    font-size: 30px;
+    font-family: "Oswald";
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.header-content{
+    align-self: flex-start;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    position: relative;
+    height: 200px;
+    width: auto;
+    left: -8px;
+    top: -8px;
+}
+.goarch-content{
+    position: absolute;
+    margin-top: -180px !important;
+    margin-left: 2%;
+}
+.goarch-dt{
+    color: #5e5e5e;
+    font-size: 15px;
+    text-align: right;
+    line-height: 36px;
+    letter-spacing: 3px;
+}
+.goarch-dt1{
+    color: #c5a47e;
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+.logo1{
+    position: relative;
+    height: 410px;
+    width: 90px;
+    top: -8px;
+    left: -8px;
+}
+.goarch-icons{
+    position: absolute;
+    margin-left: 2%;
+}
+
+.goarch-icons .p_txt1{
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    font-size: 10px;
+    letter-spacing: 7px;
+    margin-left: -90px;
+    margin-top:  -250px;
+}
+.goarch-icons .icn{
+    font-size: 15px;
+    margin-top: -150px !important;
+}
+.navbar-link{
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.navbar-link li {
+    padding: 0px 25px;
+    margin: 5px 10px;
+    list-style-type: none;
+}
+.navbar-link a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbar-link a:hover
+{
+    color: #d13420;
+}
+
+/* slider section start */
+
+.carousel-caption{
+    font-family: "Montserrat";
+    text-align: right;
+    top: 300px;
+}
+.carousel-item{
+    height: 600px;
+}
+h5{
+    font-family: "Oswald";
+    font-size: 30px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* about section start*/
+.about-content{
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family:"Oswald";
+    background-color:#272727;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+}
+.about-contact{
+    margin-top: -100px;
+    margin-right:  auto;
+}
+.about{
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 30px; 
+    letter-spacing: 7px !important;   
+}
+.about-detail{
+    justify-content: center;
+}
+.first_part
+{
+    width: 30%;
+    margin-top: 50px !important;
+    font-size: 20px;
+    border-left: 1px solid gray;
+}
+.detail{
+    font-size: 11px;
+    font-family: "Montserrat";
+}
+.second_part ,.third_part{
+    font-size: 20px;
+    margin-top: 50px !important;
+    border-left: 1px solid gray;
+}
+.specialitaion{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+/* project section start */
+.project-content{
+    background-color:#272727;
+    height: 700px;
+}
+.projects-contact{
+    margin-top: -140px !important;
+    /* margin-left: 50%; */
+    text-align: right;
+}
+.project ,.client{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family:"Oswald";
+    font-weight: 400;
+    color: #ffffff;
+    padding: 40px 0px
+}
+.project_img{
+    height: 500px;
+    max-width: 100%;
+    display: flex;
+    margin: 20px auto;
+    border: 2px solid #222;
+}
+.project_img img{
+    width: 100%;
+    height: 100%;
+}
+.project_img .image{
+    position: relative;
+}
+.image .img_content{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family:'Oswald';
+}
+.img_content h2{
+    font-weight: 300;
+    font-size: 22px;
+}
+.img_content .arw{
+    position: absolute;
+    top: 200px;
+    height: 10px;
+    width: 20px;
+}
+.img_content .prw_txt{
+    position: absolute;
+    top: 193px;
+    left: 30px;
+}
+.img_content .p_txt{
+    position: absolute;
+    top: 400px;
+    bottom: 0;
+    transform: rotate(270deg);
+    letter-spacing: 2px;
+    left: -40px !important;
+}
+.image .img_content1{
+    position: absolute;
+    left: 32%;
+    top: 200px;
+}
+.img_content1 .search_icon{
+    height: 70px;
+}
+.img_content1 .search_icon1{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 25px;
+    left: 34%;
+    text-align: center;
+}
+.img_content .arw1{
+    position: absolute;
+    top: 200px;
+    height: 10px;
+    width: 20px;
+    left: 230px;
+    transform: rotate(180deg);
+}
+.img_content .prw_txt1{
+    position: absolute;
+    top: 193px;
+    left: 190px;
+}
+
+/* client section start */
+.client-content{
+    background-color:#272727;
+    height: 700px;
+}
+.clients-contact{
+    margin-top: -160px !important;
+}
+.client-exp{
+    justify-content: center;
+    align-items: end;
+    text-transform: uppercase;
+    font-family: "Oswald";
+    color: #c5a47e;
+}
+.client-exp h1{
+    font-size: 100px;
+}
+#client-list1{
+    text-align: center;
+}
+.img1{
+    padding: 20px;
+    filter:invert(0.5);
+}
+.btn{
+    background-color: #c5a47e;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/* getin touch section start */
+.getintouch-content{
+    background-color:#272727;
+    height: 500px;
+}
+.getintouch-contact{
+    margin-top: -130px;
+    margin-left: 0;
+    text-align: right;
+}
+.contacts ,.clients ,.projects ,.abouts{
+    opacity: 0.012;
+    font-size: 173px;
+    line-height: 173px;
+    color: #fefefe;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+::placeholder{
+    color: #ffffff;
+}
+.msg ::placeholder{
+    color: #ffffff;
+}
+.msg{
+    margin-left: 460px;
+    margin-top: -105px !important;
+}
+.btn1{
+    margin-left: 67%;
+    margin-top: -50px;
+}
+
+/* footer section start */
+
+.footer-content{
+    background-color: #272727;
+    height: 70px;
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: 600;
+} */
